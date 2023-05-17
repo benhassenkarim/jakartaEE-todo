@@ -1,4 +1,4 @@
-package com.pedantic.service;
+package com.test.service;
 
 import javax.enterprise.context.SessionScoped;
 import java.io.Serializable;

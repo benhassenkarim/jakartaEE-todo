@@ -1,4 +1,4 @@
-package com.pedantic.entity;
+package com.test.entity;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

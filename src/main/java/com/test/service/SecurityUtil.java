@@ -1,4 +1,4 @@
-package com.pedantic.service;
+package com.test.service;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -12,11 +12,9 @@ import org.apache.shiro.util.ByteSource;
 
 import javax.annotation.PostConstruct;
 import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
-import java.nio.Buffer;
 import java.security.Key;
 import java.time.LocalDateTime;
 import java.time.ZoneId;

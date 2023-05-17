@@ -1,7 +1,7 @@
-package com.pedantic.service;
+package com.test.service;
 
-import com.pedantic.entity.Todo;
-import com.pedantic.entity.TodoUser;
+import com.test.entity.Todo;
+import com.test.entity.TodoUser;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
@@ -50,14 +50,14 @@ public class PersistenceServiceTest {
 //    @Before
     public void setUp() throws Exception {
 
-        mySession.setEmail("bla@bla.com");
+        mySession.setEmail("karim@gmail.com");
 
-        todoUser.setEmail("bla@bla.com");
+        todoUser.setEmail("karim@gmail.com");
         todoUser.setPassword(UUID.randomUUID().toString());
-        todoUser.setFullName("Donald Trump");
+        todoUser.setFullName("karim");
 
         todo.setDueDate(LocalDate.of(2018, 10, 31));
-        todo.setTask("Master Jakarta EE Development");
+        todo.setTask("Jakarta EE todo app");
 //        todo.setTodoOwner(todoUser);
 
 

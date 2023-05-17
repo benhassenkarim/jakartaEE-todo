@@ -1,10 +1,10 @@
-package com.pedantic.rest;
+package com.test.rest;
 
 
-import com.pedantic.config.SecureAuth;
-import com.pedantic.entity.Todo;
-import com.pedantic.service.PersistenceService;
-import com.pedantic.service.QueryService;
+import com.test.config.SecureAuth;
+import com.test.entity.Todo;
+import com.test.service.PersistenceService;
+import com.test.service.QueryService;
 
 import javax.inject.Inject;
 import javax.json.Json;

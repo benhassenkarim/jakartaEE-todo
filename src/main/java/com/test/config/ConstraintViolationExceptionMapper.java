@@ -1,4 +1,4 @@
-package com.pedantic.config;
+package com.test.config;
 
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
@@ -8,9 +8,6 @@ import javax.validation.ConstraintViolationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
 
 @Provider

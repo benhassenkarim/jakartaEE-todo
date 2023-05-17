@@ -1,4 +1,4 @@
-package com.pedantic.entity;
+package com.test.entity;
 
 import javax.json.bind.annotation.JsonbDateFormat;
 import javax.persistence.*;

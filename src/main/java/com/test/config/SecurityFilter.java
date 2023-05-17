@@ -1,11 +1,10 @@
-package com.pedantic.config;
+package com.test.config;
 
-import com.pedantic.service.MySession;
-import com.pedantic.service.SecurityUtil;
+import com.test.service.MySession;
+import com.test.service.SecurityUtil;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
-import sun.security.krb5.internal.AuthorizationData;
 
 import javax.annotation.Priority;
 import javax.inject.Inject;

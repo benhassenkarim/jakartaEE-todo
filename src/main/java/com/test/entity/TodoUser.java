@@ -1,10 +1,8 @@
-package com.pedantic.entity;
+package com.test.entity;
 
 import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import javax.validation.constraints.*;
-import java.util.ArrayList;
-import java.util.Collection;
 
 @Entity
 @Table(name = "TodoUserTable")

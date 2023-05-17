@@ -1,4 +1,4 @@
-package com.pedantic.config;
+package com.test.config;
 
 
 import javax.persistence.NamedQuery;

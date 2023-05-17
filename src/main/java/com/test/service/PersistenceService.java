@@ -1,8 +1,8 @@
-package com.pedantic.service;
+package com.test.service;
 
 
-import com.pedantic.entity.Todo;
-import com.pedantic.entity.TodoUser;
+import com.test.entity.Todo;
+import com.test.entity.TodoUser;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.sql.DataSourceDefinition;
@@ -16,7 +16,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.SecurityContext;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 

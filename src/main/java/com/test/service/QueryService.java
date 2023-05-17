@@ -1,7 +1,7 @@
-package com.pedantic.service;
+package com.test.service;
 
-import com.pedantic.entity.Todo;
-import com.pedantic.entity.TodoUser;
+import com.test.entity.Todo;
+import com.test.entity.TodoUser;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
@@ -15,7 +15,6 @@ import javax.ws.rs.core.SecurityContext;
 import java.time.LocalDate;
 import java.util.Collection;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @Stateless

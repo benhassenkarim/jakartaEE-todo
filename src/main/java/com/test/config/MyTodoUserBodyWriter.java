@@ -1,6 +1,6 @@
-package com.pedantic.config;
+package com.test.config;
 
-import com.pedantic.entity.TodoUser;
+import com.test.entity.TodoUser;
 
 import javax.json.Json;
 import javax.json.JsonObject;

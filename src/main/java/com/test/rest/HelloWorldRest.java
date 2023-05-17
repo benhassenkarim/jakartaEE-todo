@@ -1,11 +1,11 @@
-package com.pedantic.rest;
+package com.test.rest;
 
 import javax.inject.Inject;
 import javax.json.Json;
 import javax.json.JsonObject;
 import javax.ws.rs.*;
 
-@Path("hello") //https://foo.bax/api/v1/hello/{name}
+@Path("hello")
 
 public class HelloWorldRest {
 

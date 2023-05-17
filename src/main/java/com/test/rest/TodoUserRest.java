@@ -1,13 +1,13 @@
-package com.pedantic.rest;
+package com.test.rest;
 
 
-import com.pedantic.config.SecureAuth;
-import com.pedantic.config.SecurityFilter;
-import com.pedantic.entity.TodoUser;
-import com.pedantic.service.MySession;
-import com.pedantic.service.PersistenceService;
-import com.pedantic.service.QueryService;
-import com.pedantic.service.SecurityUtil;
+import com.test.config.SecureAuth;
+import com.test.config.SecurityFilter;
+import com.test.entity.TodoUser;
+import com.test.service.MySession;
+import com.test.service.PersistenceService;
+import com.test.service.QueryService;
+import com.test.service.SecurityUtil;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
@@ -20,7 +20,6 @@ import javax.ws.rs.*;
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.core.*;
 import java.security.Key;
-import java.security.Principal;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.logging.Level;
