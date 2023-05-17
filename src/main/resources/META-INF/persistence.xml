@@ -4,7 +4,7 @@
 
 
     <persistence-unit name="myPU" transaction-type="JTA">
-        <!--<jta-data-source>java:app/Todo/MyDS</jta-data-source>-->
+        <jta-data-source>java:app/Todo/MyDS</jta-data-source>
 
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>

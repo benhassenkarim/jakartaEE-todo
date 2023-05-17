@@ -21,12 +21,13 @@ import java.util.List;
 import java.util.Map;
 
 
-//@DataSourceDefinition(
-//        name = "java:app/Todo/MyDS",
-//        className = "org.sqlite.SQLiteDataSource",
-//        url = "jdbc:sqlite:C:/Users/Seeraj/Documents/sql/todo.db"
-//
-//)
+@DataSourceDefinition(name = "java:app/Todo/MyDS"
+        ,className = "org.h2.Driver",
+        url = "jdbc:h2:mem:todo",
+        user = "sa",
+        password = "sa"
+
+)
 @Stateless
 public class PersistenceService {
 
