@@ -1,0 +1,16 @@
+<servers>
+    <server>
+        <id>jumpstartjakartaee.azurecr.io</id>
+        <username>jumpstartjakartaee</username>
+        <password>AjG7sQZlzUgUDQZjallwF=6OHH0HhHNU</password>
+    </server>
+</servers>
+
+<!--Remember to change these to your own. The above won't work!-->
+<!--<servers>-->
+<!--<server>-->
+    <!--<id>[Azure ACR URL]</id>-->
+    <!--<username>[Generated Username]</username>-->
+    <!--<password>[Generated Password]</password>-->
+<!--</server>-->
+<!--</servers>-->
